@@ -1,5 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: skyblue;
     color: darkgreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.cabecalho{
+    color: indigo;
+    text-align: center;
+    line-height: 2;
+}
+
+.container{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.aprendizado{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 300px;
+    height:240px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.novo-aprendizado{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height:240px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.futuro-aprendizado{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height:240px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
